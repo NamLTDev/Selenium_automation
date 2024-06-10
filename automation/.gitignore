@@ -1,0 +1,30 @@
+#User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+
+##JAVA
+#Compiled class file
+*.class
+
+#Log file
+*.log
+
+#Package files
+*.jar
+*.zip
+
+#thumbnails
+._*
+
+##MAVEN
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##TEST OUTPUT
+test_output/*

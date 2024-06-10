@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="spring-boot" parallel="tests">
+    <test name="test1">
+        <class name="testAnnotation"/>
+    </test>
+</suite>
