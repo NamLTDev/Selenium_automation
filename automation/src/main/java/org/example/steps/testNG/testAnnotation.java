@@ -12,6 +12,6 @@ public class testAnnotation {
     public void test(){
         System.out.println("This is first test");
         List<PersonModel> listPerson = ModelConfig.getPersonModel("src/main/resources/TestData/TestData.xlsx");
-        System.out.println(listPerson.get(0).getFirstName());
+        System.out.println(listPerson.get(0).getTestCase());
     }
 }

@@ -1,6 +1,7 @@
 package org.example.model;
 
 import com.poiji.annotation.ExcelCellName;
+import com.poiji.annotation.ExcelSheet;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,8 +19,4 @@ public class PersonModel extends TestCaseModel{
 
     @ExcelCellName("LastName")
     private String lastName;
-
-    public String getFirstName() {
-        return firstName;
-    }
 }
