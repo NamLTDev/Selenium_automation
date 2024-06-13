@@ -7,8 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Data
-@Getter
-@Setter
+@ExcelSheet("TestData")
 public class PersonModel extends TestCaseModel{
 
     @ExcelCellName("FirstName")
